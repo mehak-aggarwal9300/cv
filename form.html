@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Student Form</title>
+  </head>
+  <body><center>
+    <h1>Student Form</h1>
+    </center>
+
+    <!---
+    The action attribute defines the location (URL) where the form's collected data should be sent when it is submitted.
+    The method attribute defines which HTTP method to send the data with (it can be "get" or "post").
+    ****<form class="" action="index.html" method="post">******
+        </form>
+    --->
+
+    <form action="mailto:mehakaggarwal9300@gmail.com" method="post" enctype="text/plain">   <!--"Index.html"-->
+      <label>Your name:  </label>
+      <input type="text" name="" value="">
+      <br>DOB:<input type="date" name="" value="">
+      <br>Gender:
+      <br><input type="radio" name="gender" value="Male">Male
+      <br><input type="radio" name="gender" value="Female">Female
+      <br><input type="radio" name="gender" value="Other">Other
+      <br>Email:<input type="email" name="" value="">
+      <br>Choose your Favourite Subjects:<br>
+      <input type="checkbox" name="" value="">Maths
+      <input type="checkbox" name="" value="">Engish
+      <input type="checkbox" name="" value="">Hindi
+      <input type="checkbox" name="" value="">Science
+      <br>Upload your image:<input type="file" name="" value="">
+      <br><textarea name="" rows="8" cols="80">This is default text area</textarea>
+      <br><button type="button" name="">Raw Button</button>
+      <br><button type="reset" name="">reset button</button>
+        <br><button type="submit" name="">submit buttons</button>
+        <br>How much do you like coffee?<input type="range" name="" value="">
+      <br><input type="submit" name="" value="Submit only if sure">
+    </form>
+  </body>
+</html>
